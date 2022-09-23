@@ -42,6 +42,8 @@ public class CheesePizzaUtility extends BasePizzaUtility {
 
     @Override
     public void addIngredient() {
-        System.out.println("Add Mozzarella and Cheddar Cheese as toppings");
+        System.out.println("Preparing ingredients for cheese pizza.");
+        toppingFactory.createCheese();
+        toppingFactory.createSauce();
     }
 }

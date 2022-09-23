@@ -42,6 +42,8 @@ public class PepperoniPizzaUtility extends BasePizzaUtility {
     }
     @Override
     public void addIngredient() {
-        System.out.println("Add Pepperoni and Parmesan Cheese as toppings");
+        System.out.println("Preparing ingredients for pepperoni pizza.");
+        toppingFactory.createCheese();
+        toppingFactory.createSauce();
     }
 }
