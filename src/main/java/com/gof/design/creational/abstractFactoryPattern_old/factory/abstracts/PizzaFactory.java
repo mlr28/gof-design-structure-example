@@ -1,6 +1,6 @@
-package com.gof.design.creational.abstractFactoryPattern.factory.abstracts;
+package com.gof.design.creational.abstractFactoryPattern_old.factory.abstracts;
 
-import com.gof.design.creational.abstractFactoryPattern.utility.Interface.PizzaUtility;
+import com.gof.design.creational.abstractFactoryPattern_old.utility.Interface.PizzaUtility;
 
 /**
  * ? @projectName gof-design-structure-example

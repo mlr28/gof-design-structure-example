@@ -1,6 +1,6 @@
-package com.gof.design.creational.abstractFactoryPattern.utility.topping;
+package com.gof.design.creational.abstractFactoryPattern_old.utility.topping;
 
-import com.gof.design.creational.abstractFactoryPattern.utility.Interface.SauceUtility;
+import com.gof.design.creational.abstractFactoryPattern_old.utility.Interface.SauceUtility;
 
 /**
  * ? @projectName gof-design-structure-example

@@ -1,11 +1,11 @@
-package com.gof.design.creational.abstractFactoryPattern.factory;
+package com.gof.design.creational.abstractFactoryPattern_old.factory;
 
-import com.gof.design.creational.abstractFactoryPattern.factory.abstracts.ToppingFactory;
-import com.gof.design.creational.abstractFactoryPattern.factory.abstracts.PizzaFactory;
-import com.gof.design.creational.abstractFactoryPattern.utility.pizza.CheesePizzaUtility;
-import com.gof.design.creational.abstractFactoryPattern.utility.Interface.PizzaUtility;
-import com.gof.design.creational.abstractFactoryPattern.utility.pizza.PepperoniPizzaUtility;
-import com.gof.design.creational.abstractFactoryPattern.utility.pizza.VeggiePizzaUtility;
+import com.gof.design.creational.abstractFactoryPattern_old.factory.abstracts.ToppingFactory;
+import com.gof.design.creational.abstractFactoryPattern_old.factory.abstracts.PizzaFactory;
+import com.gof.design.creational.abstractFactoryPattern_old.utility.pizza.CheesePizzaUtility;
+import com.gof.design.creational.abstractFactoryPattern_old.utility.Interface.PizzaUtility;
+import com.gof.design.creational.abstractFactoryPattern_old.utility.pizza.PepperoniPizzaUtility;
+import com.gof.design.creational.abstractFactoryPattern_old.utility.pizza.VeggiePizzaUtility;
 
 /**
  * ? @projectName gof-design-structure-example

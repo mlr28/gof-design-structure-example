@@ -1,7 +1,7 @@
-package com.gof.design.creational.abstractFactoryPattern.factory.abstracts;
+package com.gof.design.creational.abstractFactoryPattern_old.factory.abstracts;
 
-import com.gof.design.creational.abstractFactoryPattern.utility.Interface.CheeseUtility;
-import com.gof.design.creational.abstractFactoryPattern.utility.Interface.SauceUtility;
+import com.gof.design.creational.abstractFactoryPattern_old.utility.Interface.CheeseUtility;
+import com.gof.design.creational.abstractFactoryPattern_old.utility.Interface.SauceUtility;
 
 /**
  * ? @projectName gof-design-structure-example

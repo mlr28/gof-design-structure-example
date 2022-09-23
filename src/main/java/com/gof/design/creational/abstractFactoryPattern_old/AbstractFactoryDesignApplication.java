@@ -1,9 +1,8 @@
-package com.gof.design.creational.abstractFactoryPattern;
+package com.gof.design.creational.abstractFactoryPattern_old;
 
-import com.gof.design.creational.abstractFactoryPattern.factory.GourmetPizzaFactory;
-import com.gof.design.creational.abstractFactoryPattern.factory.SicilianPizzaFactory;
-import com.gof.design.creational.abstractFactoryPattern.factory.abstracts.PizzaFactory;
-import com.gof.design.creational.abstractFactoryPattern.utility.Interface.PizzaUtility;
+import com.gof.design.creational.abstractFactoryPattern_old.factory.GourmetPizzaFactory;
+import com.gof.design.creational.abstractFactoryPattern_old.factory.SicilianPizzaFactory;
+import com.gof.design.creational.abstractFactoryPattern_old.utility.Interface.PizzaUtility;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
