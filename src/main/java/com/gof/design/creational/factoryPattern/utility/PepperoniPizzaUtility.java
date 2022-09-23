@@ -1,27 +1,27 @@
-package com.gof.design.creational.factory_design.utility;
+package com.gof.design.creational.factoryPattern.utility;
 
-import com.gof.design.creational.factory_design.utility.Abstract.BasePizzaUtility;
+import com.gof.design.creational.factoryPattern.utility.Abstract.BasePizzaUtility;
 
 /**
  * ? @projectName gof-design-structure-example
  * ? @author Rohit M Lakshmikanth
  * ? @createdOn  September 23,2022 at 02:03 AM
  */
-public class VeggiePizzaUtility extends BasePizzaUtility {
+public class PepperoniPizzaUtility extends BasePizzaUtility {
 
     private String size;
     private String baseType;
 
     @Override
     public void setBase() {
-        this.baseType ="PAN";
-        System.out.println("Pan Base");
+        this.baseType ="THIN_CRUST";
+        System.out.println("Thin Crust Base");
     }
 
     @Override
     public void setSize() {
-        this.size ="LARGE";
-        System.out.println("Large Size");
+        this.size ="REGULAR";
+        System.out.println("Regular Size");
     }
 
     @Override
@@ -35,6 +35,6 @@ public class VeggiePizzaUtility extends BasePizzaUtility {
     }
     @Override
     public void addIngredient() {
-        System.out.println("Add Onion, Tomato, Bell Pepper and Cheddar Cheese as toppings");
+        System.out.println("Add Pepperoni and Parmesan Cheese as toppings");
     }
 }

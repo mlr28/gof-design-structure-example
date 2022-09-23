@@ -1,7 +1,7 @@
-package com.gof.design.creational.factory_design;
+package com.gof.design.creational.factoryPattern;
 
-import com.gof.design.creational.factory_design.factory.PizzaFactory;
-import com.gof.design.creational.factory_design.utility.Interface.PizzaUtility;
+import com.gof.design.creational.factoryPattern.factory.PizzaFactory;
+import com.gof.design.creational.factoryPattern.utility.Interface.PizzaUtility;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
@@ -13,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FactoryDesignApplication {
 
     public static void main(String[] args) {
-        PizzaUtility pu = PizzaFactory.createPizza("cheesee");
+        PizzaUtility pu = PizzaFactory.createPizza("cheese");
         if(pu != null)
         {
             pu.setBase();

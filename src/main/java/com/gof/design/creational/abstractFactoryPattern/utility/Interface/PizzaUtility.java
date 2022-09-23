@@ -1,4 +1,4 @@
-package com.gof.design.creational.factory_design.utility.Interface;
+package com.gof.design.creational.abstractFactoryPattern.utility.Interface;
 
 /**
  * ? @projectName gof-design-structure-example

@@ -1,11 +1,9 @@
-package com.gof.design.creational.factory_design.factory;
+package com.gof.design.creational.factoryPattern.factory;
 
-import com.gof.design.creational.factory_design.utility.CheesePizzaUtility;
-import com.gof.design.creational.factory_design.utility.Interface.PizzaUtility;
-import com.gof.design.creational.factory_design.utility.PepperoniPizzaUtility;
-import com.gof.design.creational.factory_design.utility.VeggiePizzaUtility;
-
-import java.security.Permission;
+import com.gof.design.creational.factoryPattern.utility.CheesePizzaUtility;
+import com.gof.design.creational.factoryPattern.utility.Interface.PizzaUtility;
+import com.gof.design.creational.factoryPattern.utility.PepperoniPizzaUtility;
+import com.gof.design.creational.factoryPattern.utility.VeggiePizzaUtility;
 
 /**
  * ? @projectName gof-design-structure-example
