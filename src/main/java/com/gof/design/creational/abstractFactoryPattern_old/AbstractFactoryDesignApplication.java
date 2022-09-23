@@ -15,7 +15,7 @@ public class AbstractFactoryDesignApplication {
 
     public static void main(String[] args) {
         PizzaUtility gPU = new GourmetPizzaFactory().createPizza("cheese");
-        // PizzaUtility pu = PizzaFactory.createPizza("cheese");
+        // Pizza pu = PizzaFactory.createPizza("cheese");
         if (gPU != null) {
             gPU.setBase();
             gPU.setSize();
@@ -25,7 +25,7 @@ public class AbstractFactoryDesignApplication {
 
         System.out.println("-----------------------------------------------------------");
         PizzaUtility sPU = new SicilianPizzaFactory().createPizza("veggie");
-        // PizzaUtility pu = PizzaFactory.createPizza("cheese");
+        // Pizza pu = PizzaFactory.createPizza("cheese");
         if (sPU != null) {
             sPU.setBase();
             sPU.setSize();
