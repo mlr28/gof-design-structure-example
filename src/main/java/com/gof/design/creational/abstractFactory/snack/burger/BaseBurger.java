@@ -12,4 +12,6 @@ public abstract class BaseBurger implements Burger {
     public void prepareSnack() {
         System.out.println("Grill burger for 4 min at 70 `C");
     }
+
+    public abstract void addIngredient();
 }

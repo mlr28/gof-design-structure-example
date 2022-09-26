@@ -12,4 +12,14 @@ public abstract class BasePizza implements Pizza {
     public void prepareSnack() {
         System.out.println("Bake pizza for 20 min at 400 `C");
     }
+
+    public abstract void addIngredient();
+
+    public abstract void setBase();
+
+    public abstract void setSize();
+
+    public abstract String getBase();
+
+    public abstract String getSize();
 }
