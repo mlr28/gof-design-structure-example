@@ -25,9 +25,7 @@ There are 5 design patterns in the creational design patterns category.
 
 
 
-
-
-##
+---
 ## **Singleton**
 
 **Java Singleton Pattern** is one of the **Gangs of Four Design patterns** and comes in the **Creational Design Pattern** category.
@@ -57,14 +55,12 @@ We can have different approaches of Singleton pattern implementation and design 
 1. Enum Singleton
 1. Serialization and Singleton
 
-
-
-
+---
 ## **Factory** 
 
 In Java applications, you might be often using the new operator to create an object of a class. This is often fine for small Java programs. But when you work on large-scale enterprise-class applications, the amount of code to create objects will gradually increase and will become scattered across the application. If class names are hardcoded in such code, the complexities of managing the code will keep increasing as you add new classes to the application. To address such concerns, you can use the factory method pattern. This pattern is a classic Gang of Four creational design pattern that is concerned with the creation of objects in an application. As the name suggests, the factory method pattern makes use of classes that act as factories to create objects. This pattern favors method invocation instead of making direct constructor calls to create objects. In the factory method pattern, you provide an interface, which can be a Java interface or an abstract class to create objects. A factory method in the interface defers the object creation to one or more concrete subclasses at run time. The subclasses implement the factory method to select the class whose objects need to be created.
 
-![](Aspose.Words.d9550ed7-18c5-470e-ba55-dc9d60d2ac62.001.png)The components of the factory method pattern in the context of the pizza store can be summarized as:
+![Factory Design Pattern](Aspose.Words.d9550ed7-18c5-470e-ba55-dc9d60d2ac62.001.png)The components of the factory method pattern in the context of the pizza store can be summarized as:
 
 - Product (Pizza): Is an interface or an abstract class whose subclasses are instantiated by the factory method.
 - ConcreteProduct (CheesePizza, PepperoniPizza, and VeggiePizza): Are the concrete subclasses that implement/extend Product. The factory method instantiates these subclasses.
