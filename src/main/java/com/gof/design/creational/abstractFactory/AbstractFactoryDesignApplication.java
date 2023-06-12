@@ -16,11 +16,16 @@ public class AbstractFactoryDesignApplication {
 
     @SneakyThrows
     public static void main(String[] args)  {
-        final String snackFactoryType = "burgerygh";
+        // Snacks : pizza, burger
+
+        final String snackFactoryType = "pizza";
         SnackFactory snackFactory = SnackFactory.getSnackFactory(snackFactoryType);
         if (snackFactory == null)
             throw new Exception("Factory you request does not exist. I guess you need to build a new factory...");
-        Snack snack = snackFactory.createSnack("aloo");
+        //Snack Type available :
+        // Pizza : cheese, veggie, pepperoni
+        // Burger : aloo, veggie, chicken
+        Snack snack = snackFactory.createSnack("veggie");
         if (snack == null) throw new Exception("Sorry, The snack request is not available");
 
         if (snackFactory.getClass().getSimpleName().toLowerCase().contains("pizza")) {

@@ -13,6 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FactoryDesignApplication {
 
     public static void main(String[] args) {
+        // Pizza : cheese, veggie, pepperoni
         PizzaUtility pu = PizzaFactory.createPizza("cheese");
         if(pu != null)
         {
